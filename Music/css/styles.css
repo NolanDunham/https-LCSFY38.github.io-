@@ -1,0 +1,149 @@
+/*
+ * Author: Nolan Dunham
+ * Date: 4/10/2024
+ * File name: styles.css
+ * */
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1 {
+    margin: 0;
+    padding: 0 ;
+    border: 0;
+}
+
+/* Style rule for images */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for mobile viewport*/ 
+
+/* Style rules for header content */
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px;
+}
+
+header h1 {
+    font-style: italic;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+/*Style rules for navigation area */
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 2em;
+    border-top: 1px solid #fff;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+nav li:first-child {
+        border-top: none;
+    }
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+    
+}
+
+.tel-link {
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+.hours {
+    margin-left: 10%;
+}
+
+/*Style rules for for main content */
+main {
+    padding: 2%;
+    background-color: #fff;
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+.action {
+    font-size: 1.75em;
+    color: #373684;
+    font-weight: bold;
+}
+
+#piano, #guitar, #violin {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#info {
+    clear: left;
+    background-color: #c0caf7;
+    padding: 1% 2%;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    color: #4645a8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map {
+    border: 5px solid #373684;
+}
+
+/*Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.65em;
+    clear: left;
+}
+
+footer a {
+    color: #4645a8;
+    text-decoration: none;
+}
